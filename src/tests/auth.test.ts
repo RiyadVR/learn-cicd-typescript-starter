@@ -31,4 +31,8 @@ describe("getAPIKey", () => {
     const result = getAPIKey(headers);
     expect(result).toBe("valid-api-key");
   });
+
+  test("temporary failure", () => {
+    expect(true).toBe(false);
+  })
 });
