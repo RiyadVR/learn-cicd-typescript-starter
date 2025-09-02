@@ -32,7 +32,8 @@ describe("getAPIKey", () => {
     expect(result).toBe("valid-api-key");
   });
 
-  test("temporary failure", () => {
-    expect(true).toBe(false);
-  })
+  // //to test CI
+  // test("temporary failure", () => {
+  //   expect(true).toBe(false);
+  // })
 });
